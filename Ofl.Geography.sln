@@ -1,4 +1,3 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
@@ -10,6 +9,17 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Geography", "src\Ofl.Geography\Ofl.Geography.csproj", "{99A7B956-6143-42E1-B06B-ABBE4C2BBDAB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Geography.Tests", "test\Ofl.Geography.Tests\Ofl.Geography.Tests.csproj", "{9006C469-FDB8-4B2B-84FE-2CEA8B052250}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-level items", "solution-level items", "{CCDDCAF0-37CB-4C86-9C29-A611E0CF206E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		appveyor.yml = appveyor.yml
+		directory.build.props = directory.build.props
+		LICENSE = LICENSE
+		Ofl.Geography.sln.DotSettings = Ofl.Geography.sln.DotSettings
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,5 +62,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{99A7B956-6143-42E1-B06B-ABBE4C2BBDAB} = {91125745-E52B-420E-81BF-3C646328249C}
 		{9006C469-FDB8-4B2B-84FE-2CEA8B052250} = {E74D3C2C-D8CD-4867-AB22-586439956F57}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDA99A2B-5C4C-4638-A95D-41AA7324B6ED}
 	EndGlobalSection
 EndGlobal
