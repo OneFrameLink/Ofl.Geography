@@ -6,10 +6,8 @@
     <PackageId>Ofl.Geography</PackageId>
     <PackageProjectUrl>https://github.com/OneFrameLink/Ofl.Geography</PackageProjectUrl>
     <RepositoryUrl>https://github.com/OneFrameLink/Ofl.Geography.git</RepositoryUrl>
-    <Version>1.0.0</Version>
+    <Version>2.0.0</Version>
     <PackageTags>geography</PackageTags>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta-62925-02" PrivateAssets="All" />
-  </ItemGroup>
 </Project>
